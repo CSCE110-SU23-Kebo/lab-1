@@ -1,0 +1,10 @@
+x1,y1,x2,y2,test_case,description,visibility
+2.64,18,3.02,28.26,"(2.64,18) and (3.02,28.26)",Simple coordinate,visible
+32,6.80,12,85,"(32,6.80) and (12,85)",Simple coordinate,visible
+-6.29,128,-32,-94,"(-6.29,128) and (-32,-94)",Negative coordinates,visible
+,,,,,,
+3,3,3,3,"(3,3) and (3,3)",Same point,after_published
+0,1,0,2,"(0,1) and (0,2)",Simple coordinates,after_published
+0,-0.4,-2,2.4,"(0,-0.4) and (-2,2.4)",Negative coordinates,after_published
+1,0.4,2,2.4,"(1,0.4) and (2,2.4)",Mixed precision coordinates,after_published
+0.0,0,2.1,1,"(0.0,0) and (2.1,1)",Mixed precision from origin,after_published

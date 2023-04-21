@@ -1,0 +1,11 @@
+names,team_size,repl_id,output_test_case,test_case,description,visibility,weight
+"Olivia,Emma,Ava,Sophia,Isabella",3,,,"Team size of 3 from Olivia,Emma,Ava,Sophia,Isabella",Make team size of 3,visible,
+"Juan,Noah,James,Arjun,Elijah,James,Lian,Noah,Mingmei",5,,,"Team size of 5 from Juan,Noah,James,Arjun,Elijah,James,Lian,Noah,Mingmei",Make team size of 5,visible,
+"Savannah,Isla,Elena,Maya,Gabriella",8,,,"Team size of 8 from Savannah,Isla,Elena,Maya,Gabriella",Team size too large,visible,
+"Anika,Adhira,Alicia,Adhira,Anika",4,,,"Team size of 4 from Anika,Adhira,Alicia,Adhira,Anika",Duplicate names,visible,
+,,,,,,,
+"Olivia,Emma,Arjun,Sophia,Isabella,Jamie,Ben",6,,,"Team size of 6 from Olivia,Emma,Arjun,Sophia,Isabella,Jamie,Ben",Make team size of 6,after_published,
+"Juan,Ava,Emma,Richard,Elijah,Maya,Lian,Noah,Mingmei,Anish,Robert",2,,,"Team size of 2 from Juan,Ava,Emma,Richard,Elijah,Maya,Lian,Noah,Mingmei,Anish,Robert",Make team size of 2,after_published,
+"Savannah,Isla,Elena,Maya,Gabriella",10,,,"Team size of 10 from Savannah,Isla,Elena,Maya,Gabriella",Team size too large,after_published,
+"Jane,Bob,Bob,Jane,Collin",4,,,"Team size of 4 from Jane,Bob,Bob,Jane,Collin",Duplicates with team size too large,after_published,
+"Jane,Bob,Bob,Jane,Collin",2,,,"Team size of 2 from Jane,Bob,Bob,Jane,Collin",Make a team size of 2 from duplicate names,after_published,

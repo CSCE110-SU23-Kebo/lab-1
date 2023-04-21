@@ -1,0 +1,8 @@
+amount,test_case,description,visibility
+60,Amount: 60,Simple amount,visible
+563,Amount: 563,Simple amount,visible
+1000,Amount: 1000,Simple amount,visible
+,,,
+0,Amount: 0,Zero amount,after_published
+124,Amount: 124,Simple amount,after_published
+9223372036854775807,Amount: 9223372036854775807,Maximum value,after_published

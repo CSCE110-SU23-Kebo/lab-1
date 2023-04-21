@@ -1,0 +1,10 @@
+seed,p1,p2,repl_id,output_test_case,test_case,description,visibility,weight,notes
+29,Jill,Julie,,,Jill and Julie,No rolled 2s,visible,,
+1,Marcus,louis,,,Marcus and louis,Player wins,visible,,
+32,mark,kelly,,,mark and kelly,Tie,visible,,
+,,,,,,,,,
+2,Josh,Rollin,,,Josh and Rollin,Player 1 wins,after_published,,Short game with rolls and passes
+3,George,Ted,,,George and Ted,Player 2 wins,after_published,,
+469,Daniel,CoNNor,,,Daniel and CoNNor,Tie,after_published,,
+29,John,Jane,,,John and Jane,No rolled 2s,after_published,,
+24,David,Goliath,,,David and Goliath,Long game,after_published,,

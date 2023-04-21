@@ -1,0 +1,13 @@
+quiz 98
+quiz 60.25
+exam 92.80
+quiz 100
+exam 50
+lab 82.76
+quiz 75
+quiz 76.23
+quiz 82
+lab 89
+lab 100
+exam 95.1
+lab 76.88

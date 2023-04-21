@@ -1,0 +1,15 @@
+membership_days,test_case,description,visibility
+4,4 days,Under one week,visible
+18,18 days,"Two weeks, four days",visible
+96,96 days,"One quarter, six days",visible
+365,365 days,Typical year,visible
+1024,1024 days,Over a year,visible
+,,,
+,,,
+0,0 days,Zero days,after_published
+21,21 days,Three weeks,after_published
+23,23 days,Under one month,after_published
+60,60 days,Two months,after_published
+86,86 days,Under one quarter,after_published
+270,270 days,Three quarters,after_published
+9223372036854775807,9223372036854775807 days,Maximum value,after_published

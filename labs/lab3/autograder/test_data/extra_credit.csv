@@ -1,0 +1,12 @@
+phrase_1,phrase_2,repl_id,test_case,description,visibility,weight
+tree,avl tree,,"Phrase 1: 'tree', Phrase 2: 'avl tree'",Basic string match,visible,
+string matching,find all substrings,,"Phrase 1: 'string matching', Phrase 2: 'find all substrings'",String match part of another word,visible,
+It is hard to be a writer if you don't do anything but read books.,ANYTHING can happen at any time.,,"Phrase 1: 'It is hard to be a writer if you don't do anything but read books.', Phrase 2: 'ANYTHING can happen at any time.'",Capitalization,visible,
+123456 Abcdefghi 987654321 aeiouAEIOU,123abcdefghi 987654321 uoiea,,"Phrase 1: '123456 Abcdefghi 987654321 aeiouAEIOU', Phrase 2: '123abcdefghi 987654321 uoiea'",Many matching substrings,visible,
+He always wore his sunglasses at night.,Art doesn't have to be intentional.,,"Phrase 1: 'He always wore his sunglasses at night.', Phrase 2: 'Art doesn't have to be intentional.'",No matches,visible,
+,,,,,,
+bear,brown bear,,"Phrase 1: 'bear', Phrase 2: 'brown bear'",Basic string match,after_published,
+the reward and the policy,la recompense et la politque,,"Phrase 1: 'the reward and the policy', Phrase 2: 'la recompense et la politque'",Partial match,after_published,
+aEioU,AeiOU,,"Phrase 1: 'aEioU', Phrase 2: 'AeiOU'",Capitalization,after_published,
+The quick brown fox,The brown quick fox,,"Phrase 1: 'The quick brown fox', Phrase 2: 'The brown quick fox'",Many matching substrings,after_published,
+Inazuma SHINES eternal,With Great power comes Great responsibility,,"Phrase 1: 'Inazuma SHINES eternal', Phrase 2: 'With Great power comes Great responsibility'",No matches,after_published,

@@ -1,0 +1,13 @@
+first_name,middle_name,last_name,phone,address,test_case,description,visibility
+naomi,Mari,OSAKA,979.686-9611,"815 University Dr, College Station, TX 77840","naomi Mari OSAKA, 979.686-9611, 815 University Dr, College Station, TX 77840","Name casing, mixed-delimiter phone number, standard address ",visible
+Stephen,Wardell,Curry,415-388 0100,"360 Warriors Way, San Francisco, CA 94158","Stephen Wardell Curry, 415-388 0100, 360 Warriors Way, San Francisco, CA 94158","Standard name, mixed-delimiter phone number, standard address ",visible
+John,Adams,Smith,979-123-4567,"123 Holleman Dr, College Station, TX 77840","John Adams Smith, 979-123-4567, 123 Holleman Dr, College Station, TX 77840","Standard name, dashed phone number, and standard address",visible
+Adams,John,Smith,979.123.4567,"123 holleman dr, college station, tx 77840","Adams John Smith, 979.123.4567, 123 holleman dr, college station, tx 77840","Standard name, dotted phone number, and lowercase address",visible
+john,smith,adams,979 123 4567,"123 HOLLEMAN DR, COLLEGE STATION, TX 77840","john smith adams, 979 123 4567, 123 HOLLEMAN DR, COLLEGE STATION, TX 77840","Lowercase name, spaced phone number, and capitalized address",visible
+,,,,,,,
+amY,FarRaH,FOwLer,979.123-9999,"555 South Holleman Dr, Houston, NY 88219","amY FarRaH FOwLer, 979.123-9999, 555 South Holleman Dr, Houston, NY 88219","Mixed-case name, dotted and dashed phone number, and zipcode",after_published
+Jacob,Jake,Selvester,125 123-9999,"123 56th RD, 3rd Austin, Tx 73301","Jacob Jake Selvester, 125 123-9999, 123 56th RD, 3rd Austin, Tx 73301","Standard name, spaced and dashed phone number, and mixed-cased alphanumeric address",after_published
+Sammy,jimmy,TIMMY,909-123-4567,"321 O'Connor Ave., Bry-an, TX 77802","Sammy jimmy TIMMY, 909-123-4567, 321 O'Connor Ave., Bry-an, TX 77802","Mixed-case name, dashed phone number, and punctuation in street name",after_published
+adAm,jOHn,SmitH,979-123-4567,"123 Holleman Dr., College Station, TX 77840","adAm jOHn SmitH, 979-123-4567, 123 Holleman Dr., College Station, TX 77840","Mixed-case name, dashed phone number, and dotted abbreviation",after_published
+L0well,B3n,John5on,909-123-4567,"123 Holleman Dr, San Antonio, TX 78201","L0well B3n John5on, 909-123-4567, 123 Holleman Dr, San Antonio, TX 78201","Alphanumeric name, dashed phone number, and standard address",after_published
+Steve-D'avi,Casey-D'awn,O'Connolly-Anders,909-123-4567,"123 Holleman Dr, San Antonio, TX 78201","Steve-D'avi Casey-D'awn O'Connolly-Anders, 909-123-4567, 123 Holleman Dr, San Antonio, TX 78201","Punctuation in name, dashed phone number, and standard address",after_published

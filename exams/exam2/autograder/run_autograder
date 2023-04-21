@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+# Set up autograder files
+
+cp /autograder/submission/palindrome.py /autograder/source/palindrome.py
+cp /autograder/submission/get_price.py /autograder/source/get_price.py
+cp /autograder/submission/make_team.py /autograder/source/make_team.py
+cp /autograder/submission/set_operations.py /autograder/source/set_operations.py
+cp /autograder/submission/accumulator.py /autograder/source/accumulator.py
+
+cd /autograder/source
+python3 run_tests.py

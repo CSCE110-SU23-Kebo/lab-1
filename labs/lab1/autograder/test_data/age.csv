@@ -1,0 +1,17 @@
+first_name,last_name,title,birth_year,test_case,description,visibility
+Amy,Thomas,Ms.,2002,Ms. Amy Thomas 2002,"Simple name, title, and birth year",visible
+Tony,Kebo,Miss,2003,Miss Tony Kebo 2003,"Simple name, title, and birth year",visible
+Sam,Savari,Dr.,1989,Dr. Sam Savari 1989,"Simple name, title, and birth year",visible
+Anthony,Adams,Mrs.,1970,Mrs. Anthony Adams 1970,"Simple name, title, and birth year",visible
+John,Franklin,Mr.,1931,Mr. John Franklin 1931,"Simple name, title, and birth year",visible
+,,,,,,
+Jane,Doe,Misses,1981,Misses Jane Doe 1981,Unlisted title,after_published
+Jane,Smith,miss,1910,miss Jane Smith 1910,Title casing,after_published
+John,Doe,dr.,2010,dr. John Doe 2010,Title casing,after_published
+Crane,Adams,ms.,2018,ms. Crane Adams 2018,Title casing,after_published
+Leo,Snow,mr.,1970,mr. Leo Snow 1970,Title casing,after_published
+Cecillia,Lot,mrs.,2012,mrs. Cecillia Lot 2012,Title casing,after_published
+,,,,,,
+cEcilliA,AndersEn,Ms.,2010,Ms. cEcilliA AndersEn 2010,Name casing,after_published
+Arthur-James,O'connor-Andersen,Mr.,1976,Mr. Arthur-James O'connor-Andersen 1976,Punctuation in name,after_published
+John,Smith,Mrs.,9999,Mrs. John Smith 9999,Future birth year,after_published

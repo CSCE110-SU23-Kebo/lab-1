@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+# Set up autograder files
+
+cp /autograder/submission/countries.py /autograder/source/countries.py
+cp /autograder/submission/cashier.py /autograder/source/cashier.py
+cp /autograder/submission/cashier_extra.py /autograder/source/cashier_extra.py
+
+cd /autograder/source
+python3 run_tests.py

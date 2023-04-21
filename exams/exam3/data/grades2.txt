@@ -1,0 +1,13 @@
+exam 79
+reading 25
+reading 90
+reading 93.08
+quiz 40
+exam 68.32
+exam 72
+quiz 46
+quiz 80.19
+lab 100
+lab 80
+reading 71
+lab 78

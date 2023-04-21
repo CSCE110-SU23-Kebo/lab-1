@@ -1,0 +1,12 @@
+amount,test_case,description,visibility
+2.36,Amount: 2.36,Simple amount,visible
+0.27,Amount: 0.27,Simple amount,visible
+6,Amount: 6,Simple amount,visible
+0.75,Amount: 0.75,Simple amount,visible
+0.5,Amount: 0.5,Simple amount,visible
+0.01,Amount: 0.01,Simple amount,visible
+,,,
+0,Amount: 0,Zero,after_published
+4.56,Amount: 4.56,Simple amount,after_published
+0.1720,Amount: 0.1720,Higher precision,after_published
+4.129,Amount: 4.129,Higher precision,after_published

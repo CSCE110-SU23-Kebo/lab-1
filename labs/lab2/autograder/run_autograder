@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+# Set up autograder files
+
+cp /autograder/submission/password.py /autograder/source/password.py
+cp /autograder/submission/rates.py /autograder/source/rates.py
+cp /autograder/submission/register.py /autograder/source/register.py
+
+cd /autograder/source
+python3 run_tests.py

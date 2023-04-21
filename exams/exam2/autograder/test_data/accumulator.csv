@@ -1,0 +1,10 @@
+numbers,repl_id,output_test_case,test_case,description,visibility,weight
+1 2 3 4 5,,,1 2 3 4 5,Simple numbers,visible,
+3 1 5 8 2,,,3 1 5 8 2,Simple numbers,visible,
+3 -1 5 -8 2,,,3 -1 5 -8 2,Negative values,visible,
+,,,,,,
+0,,,0,Zero,after_published,
+9 8 1235,,,9 8 1235,Simple sum,after_published,
+-10 10 -10 10 1,,,-10 10 -10 10 1,Negative entries,after_published,
+-1 -6 2 -10 1 10 9 -1 1 -2 -5 -6 0 -8 5 -8 6 -9 10 3 1 -6 -7,,,-1 -6 2 -10 1 10 9 -1 1 -2 -5 -6 0 -8 5 -8 6 -9 10 3 1 -6 -7,Large list of entries,after_published,
+,,,,No entries,after_published,
