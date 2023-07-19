@@ -73,6 +73,12 @@ def add_books(library):
 
 def print_books(library):
     """Prints available books in the library"""
+    
+    # check if any books available in the library
+    if not [library[isbn][1] for isbn in library.keys() if library[isbn][1] == -1]:
+        print('Invalid entry')
+        return
+    
     print('\nBooks available in the library: ')
     for isbn in library.keys():
         if library[isbn][1] == -1: # If the book is not assigned to a collection
