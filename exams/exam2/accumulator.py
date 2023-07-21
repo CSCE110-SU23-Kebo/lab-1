@@ -4,7 +4,9 @@ def main():
     """Driver function"""
     numbers = input("Enter numbers: ").split()
     numbers = [int(i) for i in numbers]
-    print(accumulate(numbers))
+    res = accumulate(numbers)
+    print('Accumulated sum:', *res, sep=' ')
+    # print(accumulate(numbers))
 
 
 def accumulate(entries):
