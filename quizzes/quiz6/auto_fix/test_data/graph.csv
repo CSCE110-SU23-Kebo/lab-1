@@ -1,0 +1,11 @@
+coefficients,repl_id,output_test_case,test_case,description,visibility,weight
+"1,1,1",,,"1,1,1",Positive coefficients,visible,
+"12,6,4",,,"12,6,4",Positive coefficients,visible,
+"4,3,-2",,,"4,3,-2",Negative coefficient,visible,
+,,,,,,
+"1,2,3",,,"1,2,3",Positive coefficients,after_published,
+"-3,9,3",,,"-3,9,3",Negative coefficient,after_published,
+"4,-6,4",,,"4,-6,4",Negative coefficient,after_published,
+"0,3,-4",,,"0,3,-4",Negative coefficient,after_published,
+"-3,-5,-4",,,"-3,-5,-4",Negative coefficients,after_published,
+"0,0,0",,,"0,0,0",Zeros,after_published,

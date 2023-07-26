@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+# Set up autograder files
+
+cp /autograder/submission/sentences.py /autograder/source/sentences.py
+cp /autograder/submission/reciprocal.py /autograder/source/reciprocal.py
+cp /autograder/submission/calculator.py /autograder/source/calculator.py
+cp /autograder/submission/graph.py /autograder/source/graph.py
+
+cd /autograder/source
+python3 run_tests.py
