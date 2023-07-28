@@ -50,7 +50,7 @@ def main():
     elif player2_score > player1_score:
         print(f'{player2_name} wins with a score of {player2_score}')
     else:
-        print('Both player got the same score')
+        print('Both players got the same score')
         print(f'{player1_name}: {player1_score} scores')
         print(f'{player2_name}: {player2_score} scores')
 
