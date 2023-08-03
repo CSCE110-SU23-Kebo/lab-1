@@ -1,15 +1,9 @@
 class Employee:
+    # class attribute
+    figure = "regular"
 
     # constructor
     def __init__(self, name, position, start_salary, annual_rate, contract_years):
-        """
-        Constructor of en employee object
-        @param name: This is the name of the employee
-        @param position: This is the role of the employee
-        @param start_salary: This is the salary on the first year
-        @param annual_rate: This is the annual merit rate
-        @param contract_years: This si the number of contract year
-        """
         self.name = name
         self.position = position
         self.start_salary = start_salary
@@ -20,8 +14,8 @@ class Employee:
     def get_cumulative_salary(self):
         """
         This function calculates the cumulative salary after
-        @param contract_years:
-        @return:
+        @param contract_years: 
+        @return: 
         """
         yearly_salary = self.start_salary
         cumulated_salary = self.start_salary
@@ -32,18 +26,18 @@ class Employee:
                 yearly_salary += yearly_salary * (self.annual_rate / 100)
                 cumulated_salary += yearly_salary
 
-        return cumulated_salary
+        return round(cumulated_salary, 2)
 
 
 def print_employees(employees):
     """
     Prints employees records given a list of employee objects
-    @param employees:
-    @return:
+    @param employees: 
+    @return: 
     """
     print(f"\n{'Name':<20}{'Position':<20}{'Start salary':<20}{'Annual rate':<20}{'Cumulative salary':<20}")
     for employee in employees:
-        cumulative_salary = round(employee.get_cumulative_salary(), 2)
+        cumulative_salary = employee.get_cumulative_salary()
         print(
             f"{employee.name:<20}{employee.position:<20}{employee.start_salary:<20}{employee.annual_rate:<20}{cumulative_salary:<20}")
 
@@ -54,7 +48,7 @@ def main():
     @return:
     """
     number_of_employees = int(input("Enter the number of employees: "))
-    employees = [] # contains the employees instance
+    employees = []
     for employee in range(number_of_employees):
         record = input("name, position, start salary, annual rate, contract years: ").split(',')
         name = record[0]
@@ -66,4 +60,5 @@ def main():
     print_employees(employees)
 
 
-main()
+if __name__ == '__main__':
+    main()
