@@ -51,5 +51,5 @@ def main():
     drawing.savefig('grades.png')
     drawing.show()
 
-
-main()
+if __name__ == '__main__':
+    main()

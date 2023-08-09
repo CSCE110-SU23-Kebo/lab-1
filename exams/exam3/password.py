@@ -35,5 +35,5 @@ def main():
             else:
                 print(f'{password} is invalid')
 
-
-main()
+if __name__ == '__main__':
+    main()
